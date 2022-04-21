@@ -1,0 +1,11 @@
+albus:$1$harrypot$PTTgWSfusbJ2aTFTaQU.M.:18346:0:99999:7:::
+buckbeak:$5$siriusblack$hJ./pNGI2MsGkz4a0XxeCo5tX59FuLLeItEx7XJOAiD:18346:0:99999:7:::
+crookshanks:$6$voldemort$jlkORe4Z/njWQXil0Bxyu4WcZo2HbwbCjfo8HTDZCmI3rh4c3knuX9JwA3V4cGyQ.1ZjBBmDPkLD1m6YIBG660:18346:0:99999:7:::
+dobby:$1$cedricdi$iMSw86AvSRwib.SHqRQvV1:18346:0:99999:7:::
+errol:$5$viktorkrum$zKDwTf.XJqyCYw4mSUQhw0TvVq4v6ZT0MrpW1cJK767:18346:0:99999:7:::
+fred:$6$bellatrix$wp0VWGx2Ttd8yxbL.ocI3/TkAgG/ZoC/2WfdZPb.THpgkiN8mQdrujr5SnSxVaol/3R94QpnF/FU9/iSc99CR1
+:18346:0:99999:7:::
+george:$1$nevillel$1g.JoQLCkoplz/PlE1t9I.:18346:0:99999:7:::
+hermione:$5$dracomalfoy$Fbb7N2GRfbVc0IG8m2LZ0h2aNJiVk.3q7BKrP4fdpx8:18346:0:99999:7:::
+igor:$6$ollivander$hApjCCsafmKo8Zx/NoVVyOK/wIV/80w/TLS8TWuZ6r23jMEBaZqNKNLGYMMpzLN9rmqFybeW3ZC3OTNwzrqOY.:18346:0:99999:7:::
+james:$1$newtscam$VVmUSl5Pj5amFHJC3W0zC1:18346:0:99999:7:::
