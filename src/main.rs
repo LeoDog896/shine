@@ -1,8 +1,11 @@
+mod gen;
+
 use clap::Parser;
 use std::{fs::File, io::{BufReader, BufRead}};
 use anyhow::Result;
 use regex::Regex;
 use crypt3::crypt;
+use gen::generate_passcode;
 
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
@@ -18,7 +21,7 @@ fn main() {
 
 fn main_error() -> Result<()> {
     let args = Args::parse();
-    let regex = Regex::new(r"(\w+):((\$\d\$[\w]+)\$([./\d\w]+)|\*|\!):")?;
+    let regex = Regex::new(r"(\w+):((\$\d\$[\w]+)\$([./\d\w]+)|\*|!):")?;
 
     let file = File::open(args.file)?;
     let reader = BufReader::new(file);
@@ -34,8 +37,14 @@ fn main_error() -> Result<()> {
           "!" => println!("User {} is a locked user account", username),
           "*" => println!("User {} is a locked servie account", username),
           pswd => {
-            let digest = crypt(b"abcdefghijklmnop", b"$1$");
-            //println!("{}", pswd);
+            for n in 1..101 {
+              let digest = crypt(
+                generate_passcode(n).as_bytes(),
+                unprocessed_result.get(3).unwrap().as_str().as_bytes()
+              ).unwrap();
+
+              println!("{}", digest);
+            }
           }
         }
       } else {
