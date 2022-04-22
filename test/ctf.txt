@@ -1,3 +1,6 @@
+root:!::0:99999:7:::
+bin:*:18831:0:99999:7:::
+daemon:*:18831:0:99999:7:::
 albus:$1$harrypot$PTTgWSfusbJ2aTFTaQU.M.:18346:0:99999:7:::
 buckbeak:$5$siriusblack$hJ./pNGI2MsGkz4a0XxeCo5tX59FuLLeItEx7XJOAiD:18346:0:99999:7:::
 crookshanks:$6$voldemort$jlkORe4Z/njWQXil0Bxyu4WcZo2HbwbCjfo8HTDZCmI3rh4c3knuX9JwA3V4cGyQ.1ZjBBmDPkLD1m6YIBG660:18346:0:99999:7:::
